@@ -14,7 +14,7 @@ class Counter extends Component {
   };
 
   deleteTemp = () => {
-    this.setState({ value: 1 });
+    this.setState({ value: 0 });
   };
 
   render() {
